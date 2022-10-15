@@ -8,8 +8,8 @@ public class median_devoir {
 		  * trier et indexer
 		  */
 	
-		int p1 = 10, p2 = 9, p3 = -1, p4 = 4, p5 = 8, p7=3 ,p6 ;
-		int[] liste = {p1,p2,p3,p4,p5,p7}; 
+		int p1 = 10, p2 = 9, p3 = -1, p4 = 4, p5 = 8,p6 ;
+		int[] liste = {p1,p2,p3,p4,p5}; 
 		Arrays.sort(liste); // list sorted 
 
 		if (liste.length % 2 == 1) {   // index -- median 
