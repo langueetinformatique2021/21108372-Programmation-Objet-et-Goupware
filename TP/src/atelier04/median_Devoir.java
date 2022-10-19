@@ -1,6 +1,6 @@
-package yuyan_TP04;
+package atelier04;
 import java.util.Arrays;
-public class median_devoir {
+public class median_Devoir {
 
 	public static void main(String[] args) {
 		 /**
@@ -8,14 +8,15 @@ public class median_devoir {
 		  * trier et indexer
 		  */
 	
-		int p1 = 10, p2 = 9, p3 = -1, p4 = 4, p5 = 8,p6 ;
+		int p1 = 10, p2 = 9, p3 = -1, p4 = 4, p5 = 8;
+		double p6;
 		int[] liste = {p1,p2,p3,p4,p5}; 
 		Arrays.sort(liste); // list sorted 
 
 		if (liste.length % 2 == 1) {   // index -- median 
 			p6 = liste[ liste.length / 2 ]; 
 		} else {
-			p6 = (liste[ liste.length / 2 - 1] + liste[ liste.length / 2 + 1])/2;
+			p6 = (liste[ liste.length / 2 - 1] + liste[ liste.length / 2 ])/ 2.0;  // 有一个错误，-1 和 0 
 		}   // index de 0; longueur de 1 
 		
 		System.out.println(p6);
@@ -25,9 +26,10 @@ public class median_devoir {
 
 }
 /* probleme : 
- * Arrays ne peut pas être print, cela return 
+ * 1.median serait un Nb float, donc ajouter (double p6) et diviser par 2.0
+ * 2.Arrays ne peut pas être print, cela return 
  * getClass().getName() + @ + Integer.toHexString(hashCode());
  * solution : 
  * boucle : for | toString() | DeepToString() -- multi-dimension arrays
- * 
- *  */
+ * 3. double et 2.0 ---> int
+ */

@@ -1,4 +1,4 @@
-package yuyan_TP04;
+package atelier04;
 
 public class iteration {
 	/**
