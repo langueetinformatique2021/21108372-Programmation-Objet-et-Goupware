@@ -16,7 +16,7 @@ public class median_Devoir {
 		if (liste.length % 2 == 1) {   // index -- median 
 			p6 = liste[ liste.length / 2 ]; 
 		} else {
-			p6 = (liste[ liste.length / 2 - 1] + liste[ liste.length / 2 ])/ 2.0;  // 有一个错误，-1 和 0 
+			p6 = (liste[ liste.length / 2 - 1] + liste[ liste.length / 2 ])/ 2.0; 
 		}   // index de 0; longueur de 1 
 		
 		System.out.println(p6);
