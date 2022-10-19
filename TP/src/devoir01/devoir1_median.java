@@ -1,6 +1,7 @@
-package atelier04;
+package devoir01;
+
 import java.util.Arrays;
-public class median_Devoir {
+public class devoir1_median {
 
 	public static void main(String[] args) {
 		 /**
