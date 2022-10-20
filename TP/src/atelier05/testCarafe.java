@@ -8,6 +8,16 @@ public class testCarafe {
 		
 		c1.remplir();
 		c2.vider();
+		
+		System.out.println(c1.contenu());
+		System.out.println(c2.capacite());
+
 	}
 
 }
+/* public Carafe(int contenu,int capacite) 
+* public void vider() === 0  |  ecriture
+* public void remplir() === capacite  |  ecriture
+* capacite()  |  lecture
+* vider()    |  lecture
+*/

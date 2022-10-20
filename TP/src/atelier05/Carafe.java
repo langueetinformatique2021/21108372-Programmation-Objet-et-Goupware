@@ -1,8 +1,5 @@
 package atelier05;
 
-import cours04.Date;
-import util.Keyboard;
-
 public class Carafe {
 
 	private int contenu_,capacite_;
