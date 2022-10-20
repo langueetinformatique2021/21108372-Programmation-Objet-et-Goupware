@@ -5,8 +5,9 @@ public class devoir1_median {
 
 	public static void main(String[] args) {
 		 /**
-		  * @author yuyan
 		  * trier et indexer
+		  * @author yuyan
+		  * 
 		  */
 	
 		int p1 = 10, p2 = 9, p3 = -1, p4 = 4, p5 = 8;

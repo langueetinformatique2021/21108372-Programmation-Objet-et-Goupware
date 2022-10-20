@@ -20,7 +20,7 @@ public class date_ex1 {
 		ajd.Afficher();
 		int nb = 0;
 		while (fete.CompareTo(ajd) == true) {
-			ajd.Incrementer();   // ajoueter les jours afin d'avoir une date pareille
+			ajd.Incrementer(); // ajouter les jours afin d'avoir une date pareille
 			nb++;
 		}
 			
