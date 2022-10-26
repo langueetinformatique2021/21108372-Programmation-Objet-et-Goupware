@@ -42,11 +42,12 @@ public class promotion extends etudiant {
 		if (resultat == "admis") {
 			this.getetudiant();
 			System.out.println(this.info());
-			System.out.println("Félicitation à votre promotion ! ");
+			System.out.println("Félicitation à votre promotion en "+this.getAnnee_promo_()+" !");
 		}else {
 			this.getetudiant();
 			System.out.println(this.info());
-			System.out.println("Vous n'avez pas passé à la promotion ! ");
+			
+			System.out.println("Vous n'avez pas passé à la promotion en "+this.getAnnee_promo_()+" !");
 		}
 		
 	}
