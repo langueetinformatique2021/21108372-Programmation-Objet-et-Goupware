@@ -11,7 +11,10 @@ public class testCarafe {
 		
 		System.out.println(c1.contenu());
 		System.out.println(c2.capacite());
-
+		
+		c1.transvaser(c2);
+		System.out.println(c1.contenu());
+		System.out.println(c2.contenu());
 	}
 
 }

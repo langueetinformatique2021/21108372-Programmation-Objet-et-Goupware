@@ -4,9 +4,9 @@ import cours04.Date;
 
 public class date_ex1 {
 	/**
-	 * calcul du nombre de jours avant le 14 juillet 2023
+	 * calcul du nombre de jours avant le 14 juillet 2023  test 
 	 * @author yuyan
-	 * 
+	 * @
 	 */
 	
 	public static void main(String[] args) {
@@ -28,7 +28,8 @@ public class date_ex1 {
 		
 	}
 }
-/* CompareTo (Date d) 
+/** 
+ * CompareTo (Date d) 
  * Incrementer () assurer les chiffres et ajouter 
  * Afficher()
  * Date() {Lire();}

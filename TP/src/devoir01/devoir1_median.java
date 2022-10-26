@@ -2,13 +2,14 @@ package devoir01;
 
 import java.util.Arrays;
 public class devoir1_median {
+	/**
+	 * calcul du nombre de jours avant le 14 juillet 2023
+	 * @author yuyan
+	 * 
+	 */
 
 	public static void main(String[] args) {
-		 /**
-		  * trier et indexer
-		  * @author yuyan
-		  * 
-		  */
+		 
 	
 		int p1 = 10, p2 = 9, p3 = -1, p4 = 4, p5 = 8;
 		double p6;
