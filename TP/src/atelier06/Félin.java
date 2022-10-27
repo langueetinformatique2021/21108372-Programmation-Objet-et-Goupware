@@ -6,7 +6,6 @@ public class Félin extends Animal {
 	/** le constructeur de Félins fait appel au constructeur de la sur-classe Animal */
 	public Félin(String type) { // les félins ont 4 pattes
 		super(type,4);
-		type = "Felin";
 	}
 	/** présentation des caractéristiques du félin */
 	public void présente() {
@@ -20,7 +19,7 @@ public class Félin extends Animal {
 	@Override
 	public void crie() {
 		String cri = "Meow~";
-		System.out.println("Je crie comme" + cri);
+		System.out.println("Je crie comme " + cri);
 	}
 	/** cri du félin */
 	}
