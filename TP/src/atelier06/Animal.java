@@ -5,7 +5,6 @@ package atelier06;
  * -1 constructeur et 2 méthodes
  * 
  * @author yuyan
- *
  */
 /** Création et gestion d'animaux */
 public abstract class Animal {
