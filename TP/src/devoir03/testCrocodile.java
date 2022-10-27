@@ -4,7 +4,7 @@ public class testCrocodile {
 
 	public static void main(String[] args) {
 		Crocodile qq = new Crocodile("Reptile-Crocodile",3);
-		qq.domestiquer("***Les Vacances YEAH!!!!***");
+		qq.domestiquer("***Les Vacances***");
 		qq.presente();
 		qq.getage();
 		qq.hibernation(true);
