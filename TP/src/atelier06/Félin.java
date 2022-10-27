@@ -12,8 +12,11 @@ public class Félin extends Animal {
 		// appel de la méthode de la sur-classe
 		super.presente();
 	
-	String etat = (domestique) ? "domestique" : "sauvage";
-	System.out.println("je suis vraiment un animal " + etat) ;
+	   
+	}
+	public void etat() {
+		 String etat = (domestique) ? "domestique" : "sauvage";
+		 System.out.println("je suis vraiment un animal " + etat) ;
 	}
 	
 	@Override

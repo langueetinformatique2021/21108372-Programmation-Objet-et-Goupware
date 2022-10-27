@@ -9,9 +9,12 @@ public class chat extends Félin implements Domesticable{
 	private String nom_;
 	public void presente() {
 		super.presente(); 
-		System.out.println("et je m'appelle " + nom());
+		
 	}
 	
+	public void etat(){
+		super.etat();
+	}
 	@Override
 	public void domestiquer(String nom) {
 		this.nom_ = nom;
