@@ -21,18 +21,15 @@ public class Cercle extends FigureGeometrique implements Comparable<Cercle>{
 	public double surface() {
 		return Math.PI * this.rayon * this.rayon;
 	}
-	public void afficher(Cercle o) {
+	public void comparer(Cercle o) {
 		String s,l;
-		System.out.println("Rayon : "+this.getRayon());
-		System.out.println("Perimetre : "+this.perimetre());
-		System.out.println("Suface : "+this.surface());
-		System.out.println("Color : "+this.getColor());
+		
 		if (this.compareTo(o)> 0) {
-			 s = "This cercle is bigger than the second";
+			 s = "\nThis cercle is bigger than the second";
 		}else if(this.compareTo(o)== 0) {
-			 s ="We have two same cercles !";
+			 s ="\nWe have two same cercles !";
 		}else {
-			 s = "This cercle is smaller than the second";
+			 s = "\nThis cercle is smaller than the second";
 		}
 		System.out.println(s);
 		if ((this.getColor()).equals(o.getColor())) {
@@ -41,5 +38,12 @@ public class Cercle extends FigureGeometrique implements Comparable<Cercle>{
 			 l = "These two cercle have different colors !";
 		}
 		System.out.println(l);
+	}
+	public void afficher() {
+		
+		System.out.println("Rayon : "+this.getRayon());
+		System.out.println("Perimetre : "+this.perimetre());
+		System.out.println("Suface : "+this.surface());
+		System.out.println("Color : "+this.getColor());
 	}
 }
