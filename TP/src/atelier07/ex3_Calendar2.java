@@ -1,4 +1,4 @@
-package aterlier07;
+package atelier07;
 
 import java.util.*;
 
