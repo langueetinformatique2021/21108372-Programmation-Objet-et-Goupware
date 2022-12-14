@@ -9,10 +9,7 @@ import java.io.PrintWriter;
 import util.Keyboard;
 
 public class MonPremierFichierTexte {
-	public void verifier() {
-		
-		
-	}
+	
 
 	public static void main(String[] args) {
 		try {

@@ -1,19 +1,17 @@
 package atelier09;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.PrintWriter;
 
-import util.Keyboard;
 
 public class MonPremierFichierTexte2 {
 	
 	public void verifier() {
-		String pathname = "atelier09.txt"; 
+		String pathname = "aterlier09.txt"; 
         try (FileReader Freader = new FileReader(pathname);
              BufferedReader Breader = new BufferedReader(Freader) 
+            
         ) {
             String line;
             while ((line = Breader.readLine() )!= null) {

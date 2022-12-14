@@ -27,6 +27,8 @@ public class Compress {
 	        input.close();
 	        zipOut.close();
 	        System.out.println("Fin d'écriture : close ");
+	        
+	       
 	     }catch (IOException e) {
 	            e.printStackTrace();
 	     }
